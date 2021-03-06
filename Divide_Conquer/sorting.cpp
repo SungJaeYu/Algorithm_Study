@@ -25,10 +25,29 @@ void randomized_quick_sort(vector<int> &a, int l, int r) {
 
   int k = l + rand() % (r - l + 1);
   swap(a[l], a[k]);
-  int m = partition2(a, l, r);
 
-  randomized_quick_sort(a, l, m - 1);
-  randomized_quick_sort(a, m + 1, r);
+  //3 Way Partition
+  int x = a[l];
+  int m1 = l;
+  int m2 = r;
+  int i = l;
+  while( i <= m2 ){
+	  if(a[i] < x) {
+		  swap(a[i], a[m1]);
+		  m1++;
+		  i++;
+	  }
+	  if(a[i] > x){
+		  swap(a[i], a[m2]);
+		  m2--;
+	  }
+	  if(a[i] == x)
+		  i++;
+  }
+  //3 Way Partition
+
+  randomized_quick_sort(a, l, m1 - 1);
+  randomized_quick_sort(a, m2 + 1, r);
 }
 
 int main() {
