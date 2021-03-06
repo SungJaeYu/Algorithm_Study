@@ -29,9 +29,10 @@ double stripClosest(vector<Point> strip, size_t size, double d){
 	double min = d;
 	sort(strip.begin(), strip.end(), compare_strip);
 	for(size_t i = 0; i < size; i++){
-		for(size_t j = (i+1); j < size && (strip[j].y - strip[i].y) < min; j++){
-			if(dist(strip[i], strip[j]) < min){
-				min = dist(strip[i], strip[j]);
+		for(size_t j = (i+1); j < size && ((strip[j].y - strip[i].y) < min); j++){
+			double dist_result = dist(strip[i], strip[j]);
+			if(dist_result < min){
+				min = dist_result;
 			}
 		}
 	}
@@ -45,9 +46,10 @@ bool compare(Point a, Point b){
 double bruteForce(vector<Point> p, size_t left, size_t right){
 	double min = std::numeric_limits<double>::max();
 	for(size_t i=left; i < right; i++){
-		for(size_t j=i+1; j < right; j++){
-			if(dist(p[i], p[j]) < min)
-				min = dist(p[i], p[j]);
+		for(size_t j= i + 1; j < right; j++){
+			double dist_result = dist(p[i], p[j]);
+			if(dist_result < min)
+				min = dist_result;
 		}
 	}
 	return min;
