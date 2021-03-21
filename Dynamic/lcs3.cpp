@@ -3,8 +3,13 @@
 
 using std::vector;
 
+int dist[1001][1001][1001];
+int ptr[1001][1001][1001];
+
 int lcs3(vector<int> &a, vector<int> &b, vector<int> &c) {
-  //write your code here
+  for(int i = 1; i < a.size(); i++){
+	  dist[i][0][0] = i;
+	  ptr[i][0] = 2;
   return std::min(std::min(a.size(), b.size()), c.size());
 }
 

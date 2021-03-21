@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 
 int get_change(int m) {
 
