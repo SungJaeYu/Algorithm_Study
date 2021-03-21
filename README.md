@@ -1,7 +1,7 @@
 # Algorithm_study
 For algorithm study
 
-1. Greedy Algorithm
+## 1. Greedy Algorithm
 - Fibonacci
 - Huge Number Fibonacci
 - Fibonacci Last Digit
@@ -11,7 +11,7 @@ For algorithm study
 - GCD
 - LCM
 
-2. Divide and Conquer
+## 2. Divide and Conquer
 - Binary Search
 - Quick Sort
 - Get Number of Inversion
@@ -19,14 +19,14 @@ For algorithm study
 - Majority Element
 - Count Points in Segments
 
-3. Dynamic
+## 3. Dynamic
 - Get Change
 - Edit Distance
 - Longest Common Subsequence of 2
 - Longest Common Subsequence of 3
 - Primitive Calculator
 
-4. Dynamic 2
+## 4. Dynamic 2
 - Knapsack No Repetition
 - Partitioning Souvenirs with 3
 - Maximum Value of an Arithmetic Expression
