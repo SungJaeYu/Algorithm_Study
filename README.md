@@ -1,4 +1,4 @@
-# Algorithm_study
+# Algorithm_Study
 For algorithm study
 
 ## 1. Greedy Algorithm
