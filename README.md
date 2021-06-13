@@ -1,32 +1,41 @@
 # Algorithm_Study
 For algorithm study
 
-## 1. Greedy Algorithm
-- Fibonacci
-- Huge Number Fibonacci
-- Fibonacci Last Digit
-- Fibonacci Partial Sum
-- Fibonacci Sum's Last Digit
-- Fibonacci Square Sum
-- GCD
-- LCM
+## 1. Algorithm Warmup
+- [x] Fibonacci
+- [x] Huge Number Fibonacci
+- [x] Fibonacci Last Digit
+- [x] Fibonacci Partial Sum
+- [x] Fibonacci Sum's Last Digit
+- [x] Fibonacci Square Sum
+- [x] GCD
+- [x] LCM
 
-## 2. Divide and Conquer
-- Binary Search
-- Quick Sort
-- Get Number of Inversion
-- Closest Point
-- Majority Element
-- Count Points in Segments
+## 2. Greedy
+- [x] Money Change
+- [x] Maximum Value of the Loot
+- [ ] Car Fueling
+- [x] Maximum Advertisement Revenue
+- [x] Collecting Signatures
+- [x] Maximum Number of Prizes
+- [x] Maximum Salary
 
-## 3. Dynamic
-- Get Change
-- Edit Distance
-- Longest Common Subsequence of 2
-- Longest Common Subsequence of 3
-- Primitive Calculator
+## 3. Divide and Conquer
+- [x] Binary Search
+- [x] Quick Sort
+- [x] Get Number of Inversion
+- [x] Closest Point
+- [x] Majority Element
+- [ ] Count Points in Segments
 
-## 4. Dynamic 2
-- Knapsack No Repetition
-- Partitioning Souvenirs with 3
-- Maximum Value of an Arithmetic Expression
+## 4. Dynamic
+- [x] Get Change
+- [x] Edit Distance
+- [x] Longest Common Subsequence of 2
+- [ ] Longest Common Subsequence of 3
+- [x] Primitive Calculator
+
+## 5. Dynamic 2
+- [x] Knapsack No Repetition
+- [ ] Partitioning Souvenirs with 3
+- [x] Maximum Value of an Arithmetic Expression
