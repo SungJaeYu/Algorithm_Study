@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <memory.h>
 
 using std::vector;
 
@@ -16,7 +17,7 @@ int partition3(vector<int> &A) {
 		sum+=A[i];
 	}
 	//Knapsack Weight == (sum of numbers)/3
-	int W = sum/3;
+	const int W = sum/3;
 	
 	for(int k = 0; k < 3; ++k){
 		memset(value, 0, sizeof(value));

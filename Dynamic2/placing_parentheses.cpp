@@ -72,8 +72,8 @@ void set_min_max_value(size_t i, size_t j, vector<char> &op){
 		long long Mm = eval(value[i][k][0], value[k+1][j][1], op[k]);
 		long long mM = eval(value[i][k][1], value[k+1][j][0], op[k]);
 		long long mm = eval(value[i][k][1], value[k+1][j][1], op[k]);
-		min_val = min({min_val, MM, Mm, mM, mm});
-		max_val = max({max_val, MM, Mm, mM, mm});
+		min_val = min(min(min(min(min_val, MM), Mm), mM), mm);
+		max_val = max(max(max(max(max_val, MM), Mm), mM), mm);
 	}
 	value[i][j][0] = max_val;
 	value[i][j][1] = min_val;
